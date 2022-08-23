@@ -1,0 +1,54 @@
+
+table {
+    /* các đường viền nhập làm một */
+    border-collapse: collapse;
+}
+
+table, td, th {
+    /* viền 1px nét liền màu đèn */
+    border: 1px solid black;
+}
+
+
+table {
+    border-collapse: collapse;
+    /* chiều ngang bảng bằng 100% chiều ngang màn hình */
+    width: 100%;
+}
+
+th {
+    /* thành phần trong thẻ th có độ cao 50px */
+    height: 50px;
+}
+
+
+td {
+    /* thành phần trong thẻ td có độ cao 50px */
+    height: 50px;
+    /* căn chỉnh thành phần trong thẻ td theo chiều dọc nằm xuống dưới */
+    vertical-align: bottom;
+}
+
+table, td, th {    
+    border: 1px solid #ddd;
+    /* căn chỉnh thành phần trong thẻ table, td, th theo chiều ngang sang bên trái */
+    text-align: left;
+}
+
+
+th, td {
+    /* khoảng cách giữa viền và nội dung trong thẻ th, td là 15px */
+    padding: 15px;
+}
+
+
+
+/* không biết */
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    /* màu nền thành phần trong thẻ th */
+    background-color: #4CAF50;
+    /* màu chữ thành phần trong thẻ th */
+    color: white;
+}
