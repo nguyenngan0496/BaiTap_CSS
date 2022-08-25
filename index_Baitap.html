@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 02</title>
+
+    <style>
+        ul.a {
+            /* đánh dấu mục danh sách không có thứ tự bằng hình tròn*/
+        list-style-type: circle;
+        }
+
+        ul.b {
+            /* đánh dấu mục danh sách không có thứ tự bằng hình vuông*/
+        list-style-type: square;
+        }
+
+        ol.c {
+            /* đánh dấu mục danh sách có thứ tự bằng chữ la mã*/
+        list-style-type: upper-roman;
+        }
+
+        ol.d {
+            /* đánh dấu mục danh sách có thứ tự bằng chữ cái*/
+        list-style-type: lower-alpha;
+        }
+
+        ul.e {
+            /* đánh dấu mục danh sách bằng hình ảnh*/
+        list-style-image: url(https://learn.codegym.vn/storage/2020/11/Logo.png);
+        }
+
+        ul.f {
+            /* nơi đánh dấu xuất hiện bên trong dòng nội dung */
+            list-style-position: inside;
+        }
+
+        ul.g {
+            /* nơi đánh dấu xuất hiện bên ngoài dòng nội dung */
+            list-style-position: outside;
+        }
+
+        ul.h {
+          /* thiết lập mục đánh dấu danh sách là hình vuông, nằm trong dòng nội dung, dùng hình ảnh như link 
+          nếu hình không hiển thị thì sẽ hiện hình vuông */
+          list-style: square inside url(https://s3.ap-southeast-1.amazonaws.com/learn.codegym.vn/media/public/2020/12/03102259/gamipress-icon-heart-filled-100x100.png);
+        }
+
+        ol.i {
+          /* thiết lập màu nền và phần đệm của danh sách có thứ tự */
+          background: #ff9999;
+          padding: 20px;
+        }
+
+        ul.j {
+          /* thiết lập màu nền và phần đệm của danh sách không có thứ tự */
+          background: #91faf5;
+          padding: 30px;
+        }
+
+        ol.i li {
+          /* thiết lập màu nền, phần đệm và căn chỉnh dòng cho nội dung của danh sách */
+          background: #ffe5e5;
+          padding: 5px;
+          margin-left: 35px;
+        
+        }
+    </style>
+
+</head>
+<body>
+    <p>VD về danh sách không có thứ tự:</p>
+    <ul class="a">
+      <li>Coffee</li>
+      <li>Tea</li>
+    </ul>
+    
+    <ul class="b">
+      <li>Coffee</li>
+      <li>Tea</li>
+    </ul>
+    
+    <p>VD về danh sách có thứ tự:</p>
+    <ol class="c">
+      <li>Coffee</li>
+      <li>Tea</li>
+    </ol>
+    
+    <ol class="d">
+      <li>Coffee</li>
+      <li>Tea</li>
+    </ol>
+
+
+    <ul class="e">
+        <li>Coffee</li>
+        <li>Tea</li>
+      </ul>
+
+
+
+    
+<ul class="f">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+
+
+<ul class="g">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+
+
+<ul class="h">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+
+    <h1>Thiết lập màu sắc cho danh sách:</h1>
+
+<ol class="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ul class="j">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+</html>
